@@ -10,7 +10,12 @@ export const Projects = () => {
         <ul className="projects">
           {projects.map((project, index) => {
             return (
-              <Project img={project.img} title={project.title} key={index} index={index} />
+              <Project
+                img={project.img}
+                title={project.title}
+                key={index}
+                index={index}
+              />
             );
           })}
         </ul>

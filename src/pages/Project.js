@@ -14,7 +14,7 @@ export const Project = () => {
           <h1 className="title-1">{project.title}</h1>
 
           <img
-            src={project.imgBig}
+            src={project.img}
             alt={project.title}
             className="project-details__cover"
           />
@@ -23,7 +23,7 @@ export const Project = () => {
             <p>Skills: {project.skills}</p>
           </div>
 
-          {project.gitHubLink && <BtnGitHub link="https://github.com" />}
+          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
         </div>
       </div>
     </main>

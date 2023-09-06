@@ -11,13 +11,13 @@ export const Home = () => {
             <li className="content-list__item">
               <h2 className="title-2">Frontend</h2>
               <p>
-                JavaScript, TypeScript, ReactJS, Angular, Redux, HTML, CSS, NPM,
-                BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+                JavaScript, ReactJS, React Router, Redux(Redux Toolkit), HTML,
+                CSS, SCSS, NPM, BootStrap, Yarn, Vite
               </p>
             </li>
             <li className="content-list__item">
               <h2 className="title-2">Backend</h2>
-              <p>NodeJS, MySQL, MongoDB, PHP, Laravel</p>
+              <p>NodeJS, MongoDB</p>
             </li>
           </ul>
         </div>
