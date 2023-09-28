@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { projects } from "../helpers/ProjectsList";
 import { BtnGitHub } from "../components/BtnGitHub";
+import { BtnLinkToOpen } from "../components/BtnLinkToOpen";
 
 export const Project = () => {
   const { id } = useParams();
@@ -23,7 +24,10 @@ export const Project = () => {
             <p>Skills: {project.skills}</p>
           </div>
 
-          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
+          <div className="project-details__links">
+            {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
+            {project.linkToOpen && <BtnLinkToOpen link={project.linkToOpen} />}
+          </div>
         </div>
       </div>
     </main>
