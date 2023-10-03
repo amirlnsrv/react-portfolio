@@ -14,33 +14,33 @@ export const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="#!">
+              <a href="https://vk.com/ssl1z">
                 <img src={vk} alt=""></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a href="https://instagram.com/amirlnsrv">
                 <img src={instagram} alt="Link"></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a href="https://twitter.com/ALansarov">
                 <img src={twitter} alt="Link"></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a href="https://github.com/amirlnsrv">
                 <img src={gitHub} alt="Link"></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="#!">
+              <a href="https://www.linkedin.com/in/амир-лансаров-959611261">
                 <img src={linkedIn} alt="Link"></img>
               </a>
             </li>
           </ul>
           <div className="copyright">
-            <p>© 2022 frontend-dev.com</p>
+            <p>© 2023 Amir Lansarov</p>
           </div>
         </div>
       </div>
