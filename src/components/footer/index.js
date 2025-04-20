@@ -14,27 +14,30 @@ export const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="https://vk.com/ssl1z">
+              <a href="https://vk.com/ssl1z" target="_blank">
                 <img src={vk} alt=""></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="https://instagram.com/amirlnsrv">
+              <a href="https://instagram.com/amirlanx" target="_blank">
                 <img src={instagram} alt="Link"></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="https://twitter.com/ALansarov">
+              <a href="https://twitter.com/ALansarov" target="_blank">
                 <img src={twitter} alt="Link"></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="https://github.com/amirlnsrv">
+              <a href="https://github.com/amirlnsrv" target="_blank">
                 <img src={gitHub} alt="Link"></img>
               </a>
             </li>
             <li className="social__item">
-              <a href="https://www.linkedin.com/in/амир-лансаров-959611261">
+              <a
+                href="https://www.linkedin.com/in/amir-lansarov-959611261/"
+                target="_blank"
+              >
                 <img src={linkedIn} alt="Link"></img>
               </a>
             </li>

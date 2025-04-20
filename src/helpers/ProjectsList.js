@@ -4,6 +4,12 @@ import project02 from "../img/projects/react-pizza.png";
 
 import project03 from "../img/projects/bosfor.png";
 
+import project04 from "../img/projects/glance.png";
+
+import project05 from "../img/projects/womazing.png";
+
+import project06 from "../img/projects/weather-js.png";
+
 export const projects = [
   {
     title: "React Sneakers",
@@ -25,5 +31,23 @@ export const projects = [
     img: project03,
     gitHubLink: "https://github.com/amirlnsrv/bosfor-react",
     linkToOpen: "https://bosfor-react.vercel.app",
+  },
+  {
+    title: "Glance",
+    skills: "react, react-router, redux-toolkit, json-server",
+    img: project04,
+    gitHubLink: "https://github.com/amirlnsrv/Glance-metalabs",
+  },
+  {
+    title: "Womazing",
+    skills: "react, react-router, redux-toolkit, json-server",
+    img: project05,
+    gitHubLink: "https://github.com/amirlnsrv/Glance-metalabs",
+  },
+  {
+    title: "Weather JS",
+    skills: "JS, localStorage, weatherAPI",
+    img: project06,
+    gitHubLink: "https://github.com/amirlnsrv/weather-js",
   },
 ];
