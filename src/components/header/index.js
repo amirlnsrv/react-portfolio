@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import "./style.css";
 
 export const Header = () => {
   return (
@@ -14,7 +14,11 @@ export const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="#!" className="btn">
+        <a
+          target="_blank"
+          href="https://disk.yandex.ru/i/UXIUHpqolyDQHg"
+          className="btn"
+        >
           Download CV
         </a>
       </div>
